@@ -1,33 +1,133 @@
-.App {
-  text-align: center;
+.form-control-borderless {
+  border: none;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container {
+  transition: all 1s ease-in;
+}
+
+
+#todaytuile {
+  padding: 0;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+
+
+}
+
+#searchbar {
+  -webkit-box-shadow: -6px 3px 15px -5px rgba(6, 26, 26, 0.11);
+  -moz-box-shadow: -6px 3px 15px -5px rgba(6, 26, 26, 0.11);
+  box-shadow: -6px 3px 15px -5px rgba(6, 26, 26, 0.11);
+}
+
+#datebutton {
+  height: 100%;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: rgb(235, 20, 20);
+}
+
+#selection {
+  height: 100%;
+  margin: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: -6px 3px 15px -5px rgba(6, 119, 204, 0.44);
+  -moz-box-shadow: -6px 3px 15px -5px rgba(6, 119, 204, 0.44);
+  box-shadow: -6px 3px 15px -5px rgba(6, 119, 204, 0.44);
+}
+
+#selectionpast {
+  height: 100%;
+  margin: 0;
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+}
+
+#selectionpast:hover {
   color: white;
+  background-color: black;
+  border-color: lightgray;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  -webkit-box-shadow: -6px 3px 15px -5px rgba(6, 26, 26, 0.11);
+  -moz-box-shadow: -6px 3px 15px -5px rgba(6, 26, 26, 0.11);
+  box-shadow: -6px 3px 15px -5px rgba(6, 26, 26, 0.11);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#pasttuile {
+  /* border: 1px solid black; */
+  padding: 0px;
+}
+
+#pasttuile>* {
+  margin: 0px;
+}
+
+#pastcontent,
+#pastcontent2,
+#pastcontent3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#next-content {
+  margin: 0px;
+  padding: 0px;
+}
+
+.vr {
+  border-right: 1px solid #ccc !important;
+}
+
+#datebutton {
+  -webkit-box-shadow: 6px 3px 25px -2px rgba(235, 20, 76, 0.33);
+  -moz-box-shadow: 6px 3px 25px -2px rgba(235, 20, 76, 0.33);
+  box-shadow: 6px 3px 25px -2px rgba(235, 20, 76, 0.33);
+}
+
+#ects-badge {
+  -webkit-box-shadow: 0px 11px 15px -5px rgba(0, 138, 217, 0.33);
+  -moz-box-shadow: 0px 11px 15px -5px rgba(0, 138, 217, 0.33);
+  box-shadow: 0px 11px 15px -5px rgba(0, 138, 217, 0.33);
+}
+
+#ects-badge2 {
+  -webkit-box-shadow: 0px 11px 15px -5px rgba(254, 32, 32, 0.33);
+  -moz-box-shadow: 0px 11px 15px -5px rgba(254, 32, 32, 0.33);
+  box-shadow: 0px 11px 15px -5px rgba(254, 32, 32, 0.33);
+}
+
+#ects-badge3 {
+  -webkit-box-shadow: 0px 11px 15px -5px rgba(254, 195, 32, 0.33);
+  -moz-box-shadow: 0px 11px 15px -5px rgba(254, 195, 32, 0.33);
+  box-shadow: 0px 11px 15px -5px rgba(254, 195, 32, 0.33);
+}
+
+#ects-badge4 {
+  -webkit-box-shadow: 0px 11px 15px -5px rgba(123, 220, 181, 1);
+  -moz-box-shadow: 0px 11px 15px -5px rgba(123, 220, 181, 1);
+  box-shadow: 0px 11px 15px -5px rgba(123, 220, 181, 1);
+}
+
+.card {
+  border: rgba(129, 129, 129, 0.452) !important;
+  border-radius: 1em;
 }
